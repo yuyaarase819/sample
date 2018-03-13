@@ -1,0 +1,34 @@
+#btn0 {
+  display:flex;
+}
+
+#btn {
+width:300px;
+height:300px;
+background-color:green;
+}
+
+#btn1 {
+  width:300px;
+  height:300px;
+  background-color:black;
+}
+
+#anime {
+  font-size:50px;
+}
+
+#anime1 {
+  color:red;
+  font-size:50px;
+}
+
+.positonWrap {
+  height:300px;
+  position: relative;
+}
+
+#position {
+  position: absolute;
+  font-size:50px;
+}
