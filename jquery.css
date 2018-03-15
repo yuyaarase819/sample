@@ -32,3 +32,46 @@ background-color:green;
   position: absolute;
   font-size:50px;
 }
+
+.button1 button{
+  display:block;
+  float:left;
+  width: 224px;
+  height:80px;
+  margin: 0 10px 20px;
+  padding: 0;
+  font-size:16px;
+  letter-spacing: 0.15em;
+  color: red;
+  background-color: blue;
+  border: none;
+  border-radius: 20px;
+  border: solid 0px rgba(174,94,155,1.0)
+}
+
+.button1 h2 {
+  text-align:center;
+}
+
+.button1 button{
+  position:relative;
+}
+
+.button1 button .i {
+  position:absolute;
+  top:0;
+  left:0;
+  width:0;
+  height:100%;
+  overflow:hidden;
+}
+
+.button1 button span span {
+  display:block;
+  width:224px;
+  height:80px;
+  line-height:80px;
+  color:#fff;
+  background-color:#ae5e9b;
+  border-radius:20px;
+}
